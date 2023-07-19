@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+%!/usr/bin/env python3
 """ exercise module """
 import uuid
 from functools import wraps
