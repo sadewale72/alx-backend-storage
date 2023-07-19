@@ -14,4 +14,4 @@ def insert_school(mongo_collection, **kwargs):
     :return:
     """
     new_documents = mongo_collection.insert_one(kwargs)
-    return new_documents.inserted_i
+    return new_documents.inserted_id
